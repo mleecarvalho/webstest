@@ -43,3 +43,5 @@ Route::get('Autenticacao/BaixarInicializacao', function()
 });
 
 Route::post('Transacao/EnviarTransacao','EnviarTransacao@response');
+
+Route::post('Comprovante/EnviarComprovante','EnviarComprovante@response');
