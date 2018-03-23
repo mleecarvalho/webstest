@@ -1,0 +1,29 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionconciliations"
+        }
+    ],
+    "content": [
+        {
+            "transctionToConcilieQuantity": 23183,
+            "transctionToConcilieAmount": 1755405.890000028,
+            "transctionConciliedQuantity": 15374,
+            "transctionConciliedAmount": 1108175.6800000314,
+            "transctionUnprocessedQuantity": 4,
+            "transctionUnprocessedAmount": 31480.989999999998,
+            "acquirer": null,
+            "cardProduct": null,
+            "shop": null,
+            "date": null,
+            "links": []
+        }
+    ],
+    "page": {
+        "size": 900,
+        "totalElements": 1,
+        "totalPages": 1,
+        "number": 0
+    }
+}

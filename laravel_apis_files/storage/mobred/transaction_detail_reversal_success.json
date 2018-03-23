@@ -1,0 +1,20 @@
+{  
+   "Aute":"123456",
+   "CodigoBandeira":22.0,
+   "CodigoEstabelecimento":33677387.0,
+   "CodigoStatusTransacao":1.0,
+   "CodigoTerminal":"MOBILE16",
+   "CodigoTransacao":"0001",
+   "DataHoraTerminal":"/Date(1492691519000)/",
+   "MascaraCartao":2309.0,
+   "NSUHost":249997550.0,
+   "NSUTerminal":954867.0,
+   "NomeTitularCartao":"Mc DEB - scode 601 No 20  ",
+   "QuantidadeParcelaTransacao":1.0,
+   "ValorTotal":2210.0,
+   "CodigoRetorno":0,
+   "MensagemRetorno":"",
+   "VersaoMinimaAndroid":null,
+   "VersaoMinimaIOS":null,
+   "VersaoMinimaWin":null
+}

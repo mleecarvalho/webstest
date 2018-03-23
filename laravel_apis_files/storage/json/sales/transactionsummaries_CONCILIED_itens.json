@@ -1,0 +1,200 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 464,
+      "amount": 27841.17,
+      "net": 27327.740000000013,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 4,
+      "amount": 355.92,
+      "net": 349.28999999999996,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 2,
+        "name": "Diners",
+        "brand": {
+          "id": 2,
+          "name": "DINERS CLUB"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 406,
+      "amount": 29699.719999999998,
+      "net": 29154.79000000002,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 1,
+      "amount": 82,
+      "net": 81.06,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 4,
+        "name": "Cabal Débito",
+        "brand": {
+          "id": 4,
+          "name": "CABAL"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 54,
+      "amount": 3391.649999999999,
+      "net": 3322.32,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 5,
+        "name": "Hipercard",
+        "brand": {
+          "id": 5,
+          "name": "HIPERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 639,
+      "amount": 28144.659999999993,
+      "net": 27790.570000000072,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 459,
+      "amount": 23273.060000000005,
+      "net": 22977.330000000005,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 7,
+        "name": "Visa Electron",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 3,
+      "amount": 84.03999999999999,
+      "net": 82.33,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "CONCILIED",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 28,
+        "name": "Credsystem",
+        "brand": {
+          "id": 10,
+          "name": "CREDSYSTEM (MAIS)"
+        }
+      },
+      "pv": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 8,
+    "totalPages": 1,
+    "number": 0
+  }
+}

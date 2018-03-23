@@ -1,0 +1,248 @@
+{
+    "user": {
+        "pvList": [
+            {
+                "code": "001250191",
+                "id": 3793,
+                "acquirerId": 1
+            },
+            {
+                "code": "031391745",
+                "id": 4096,
+                "acquirerId": 1
+            },
+            {
+                "code": "037159488",
+                "id": 4097,
+                "acquirerId": 1
+            },
+            {
+                "code": "006493505",
+                "id": 4100,
+                "acquirerId": 1
+            },
+            {
+                "code": "009539891",
+                "id": 4101,
+                "acquirerId": 1
+            },
+            {
+                "code": "010149570",
+                "id": 4102,
+                "acquirerId": 1
+            },
+            {
+                "code": "028371623",
+                "id": 3815,
+                "acquirerId": 1
+            },
+            {
+                "code": "010149597",
+                "id": 4103,
+                "acquirerId": 1
+            },
+            {
+                "code": "028694201",
+                "id": 3820,
+                "acquirerId": 1
+            },
+            {
+                "code": "029879370",
+                "id": 3821,
+                "acquirerId": 1
+            },
+            {
+                "code": "012341088",
+                "id": 4084,
+                "acquirerId": 1
+            },
+            {
+                "code": "013558340",
+                "id": 4085,
+                "acquirerId": 1
+            },
+            {
+                "code": "024667757",
+                "id": 4086,
+                "acquirerId": 1
+            },
+            {
+                "code": "028130456",
+                "id": 4087,
+                "acquirerId": 1
+            },
+            {
+                "code": "032136641",
+                "id": 4088,
+                "acquirerId": 1
+            },
+            {
+                "code": "001250817",
+                "id": 4089,
+                "acquirerId": 1
+            },
+            {
+                "code": "001632809",
+                "id": 4090,
+                "acquirerId": 1
+            },
+            {
+                "code": "003426335",
+                "id": 4091,
+                "acquirerId": 1
+            },
+            {
+                "code": "007341075",
+                "id": 4092,
+                "acquirerId": 1
+            },
+            {
+                "code": "011971606",
+                "id": 4093,
+                "acquirerId": 1
+            },
+            {
+                "code": "020781806",
+                "id": 4094,
+                "acquirerId": 1
+            },
+            {
+                "code": "030029724",
+                "id": 4095,
+                "acquirerId": 1
+            },
+            {
+                "code": "018167160",
+                "id": 3802,
+                "acquirerId": 1
+            },
+            {
+                "code": "066707390",
+                "id": 4048,
+                "acquirerId": 1
+            },
+            {
+                "code": "066707471",
+                "id": 4050,
+                "acquirerId": 1
+            },
+            {
+                "code": "036832766",
+                "id": 3908,
+                "acquirerId": 1
+            },
+            {
+                "code": "045228086",
+                "id": 3945,
+                "acquirerId": 1
+            },
+            {
+                "code": "048893145",
+                "id": 3961,
+                "acquirerId": 1
+            },
+            {
+                "code": "056589158",
+                "id": 3962,
+                "acquirerId": 1
+            },
+            {
+                "code": "066707625",
+                "id": 3963,
+                "acquirerId": 1
+            },
+            {
+                "code": "000021792",
+                "id": 3814,
+                "acquirerId": 1
+            },
+            {
+                "code": "013357093",
+                "id": 3831,
+                "acquirerId": 1
+            },
+            {
+                "code": "011373822",
+                "id": 3850,
+                "acquirerId": 1
+            },
+            {
+                "code": "066038901",
+                "id": 3992,
+                "acquirerId": 1
+            },
+            {
+                "code": "028818709",
+                "id": 3949,
+                "acquirerId": 1
+            },
+            {
+                "code": "005520410",
+                "id": 3872,
+                "acquirerId": 1
+            },
+            {
+                "code": "028904508",
+                "id": 3921,
+                "acquirerId": 1
+            },
+            {
+                "code": "019975651",
+                "id": 3927,
+                "acquirerId": 1
+            },
+            {
+                "code": "016960467",
+                "id": 3994,
+                "acquirerId": 1
+            },
+            {
+                "code": "005520606",
+                "id": 3919,
+                "acquirerId": 1
+            },
+            {
+                "code": "040832090",
+                "id": 4023,
+                "acquirerId": 1
+            },
+            {
+                "code": "037346040",
+                "id": 4099,
+                "acquirerId": 1
+            },
+            {
+                "code": "037451839",
+                "id": 4113,
+                "acquirerId": 1
+            },
+            {
+                "code": "009771778",
+                "id": 4117,
+                "acquirerId": 1
+            },
+            {
+                "code": "019052014",
+                "id": 4175,
+                "acquirerId": 1
+            },
+            {
+                "code": "023809442",
+                "id": 4176,
+                "acquirerId": 1
+            },
+            {
+                "code": "1086967450",
+                "id": 4211,
+                "acquirerId": 2
+            },
+            {
+                "code": "1085480736",
+                "id": 4212,
+                "acquirerId": 2
+            }
+        ],
+        "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoZW50aWNhdGlvbi1zZXJ2ZXIiLCJpYXQiOjE0ODU3NzQ5MDQsInVzdWFyaW8iOnsiRW1haWwiOiJvcGVyYWNpb25hbEBnbWFpbC5jb20iLCJJZCI6MTQxNzE0LCJOb21lIjoiUFYgVGVzdGUgUkFWIn19.D5fBQFf4gkxwvO93TVnORh9HdOo1Rdc_MzmSqHKGpbeNhh7pGmalEfYkd60sdcjOyTxuQbjagTk9Qtl46ud77rBQXs9I0UOV8LxIq772BHgULnV6Whd0ZblXqUZDFJdGegekEa4Hww1jeG1zs8I8TjvWtzfLCWJb7GjEiTlRhtccTrXBhWWzl5boD194EpuW8W0WTW9zzf7ynVlhuOpo5uSIN1tPrcepQjKDIvY_5OQA_F2McqkJXuiTQw2IrCRTZLK12kWm_SLlcpK_c6b_DittL3HCXCf_xhukY8luZXB03yoLLTSjrMkA1rDZjbcT7DKkgqPT7xhVIXA7BLNNyg",
+        "login": "operacional@gmail.com"
+    }
+}

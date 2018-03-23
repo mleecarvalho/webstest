@@ -1,0 +1,216 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 11764,
+      "amount": 598400.5600000143,
+      "net": 590623.1200000237,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 9373,
+      "amount": 838012.9000000092,
+      "net": 821326.7500000143,
+      "cancelledAmount": 14573.620000000003,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 8301,
+      "amount": 491562.66000000807,
+      "net": 485105.20000001043,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 7,
+        "name": "Visa Electron",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 7920,
+      "amount": 815755.7700000079,
+      "net": 799446.1800000042,
+      "cancelledAmount": 4728.68,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 1062,
+      "amount": 109798.51999999992,
+      "net": 106845.04999999983,
+      "cancelledAmount": 7516.610000000001,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 5,
+        "name": "Hipercard",
+        "brand": {
+          "id": 5,
+          "name": "HIPERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 79,
+      "amount": 7418.910000000002,
+      "net": 7278.699999999999,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 2,
+        "name": "Diners",
+        "brand": {
+          "id": 2,
+          "name": "DINERS CLUB"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 46,
+      "amount": 1985.03,
+      "net": 1945.3100000000004,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 28,
+        "name": "Credsystem",
+        "brand": {
+          "id": 10,
+          "name": "CREDSYSTEM (MAIS)"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 6,
+      "amount": 339.94000000000005,
+      "net": 332.83,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 19,
+        "name": "Sorocred",
+        "brand": {
+          "id": 7,
+          "name": "SOROCRED"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 4,
+      "amount": 204.1,
+      "net": 201.2,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 4,
+        "name": "Cabal Débito",
+        "brand": {
+          "id": 4,
+          "name": "CABAL"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 2,
+      "amount": 103.18,
+      "net": 101.14,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": {
+        "id": 108,
+        "name": "Credz",
+        "brand": {
+          "id": 42,
+          "name": "NÃO PREVISTA"
+        }
+      },
+      "pv": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 10,
+    "totalPages": 1,
+    "number": 0
+  }
+}

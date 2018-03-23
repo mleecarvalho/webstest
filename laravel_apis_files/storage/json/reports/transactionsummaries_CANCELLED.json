@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 37,
+      "amount": 23662,
+      "net": 23044.219999999998,
+      "cancelledAmount": 27059.249999999996,
+      "date": null,
+      "conciliationStatus": null,
+      "adjustType": null,
+      "acquirer": null,
+      "cardProduct": null,
+      "pv": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 10,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}

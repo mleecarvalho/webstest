@@ -1,0 +1,156 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 1,
+      "amount": 246,
+      "net": 240.34,
+      "cancelledAmount": 240.34,
+      "date": "2016-11-09",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 10,
+      "amount": 4840,
+      "net": 4728.68,
+      "cancelledAmount": 4728.68,
+      "date": "2016-11-09",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 7,
+      "amount": 7884,
+      "net": 7701.55,
+      "cancelledAmount": 6627.389999999999,
+      "date": "2016-11-10",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 5,
+      "amount": 4895,
+      "net": 4711.700000000001,
+      "cancelledAmount": 2834.37,
+      "date": "2016-11-10",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 5,
+        "name": "Hipercard",
+        "brand": {
+          "id": 5,
+          "name": "HIPERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 4,
+      "amount": 5797,
+      "net": 5661.95,
+      "cancelledAmount": 3997.01,
+      "date": "2016-11-13",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 4,
+      "amount": null,
+      "net": null,
+      "cancelledAmount": 3949.2200000000003,
+      "date": "2016-11-16",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 6,
+      "amount": null,
+      "net": null,
+      "cancelledAmount": 4682.24,
+      "date": "2016-11-16",
+      "conciliationStatus": null,
+      "adjustType": "CANCELLATION",
+      "acquirer": null,
+      "cardProduct": {
+        "id": 5,
+        "name": "Hipercard",
+        "brand": {
+          "id": 5,
+          "name": "HIPERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 10,
+    "totalElements": 7,
+    "totalPages": 1,
+    "number": 0
+  }
+}

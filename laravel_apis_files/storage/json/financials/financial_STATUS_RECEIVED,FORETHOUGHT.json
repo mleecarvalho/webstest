@@ -1,0 +1,47 @@
+[
+  {
+    "expectedAmount": 6682.219999999999,
+    "payedAmount": 6682.219999999999,
+    "discountAmount": 0,
+    "type": null,
+    "expectedDate": null,
+    "payedDate": null,
+    "description": "vendas",
+    "status": "RECEIVED",
+    "bankAccount": null,
+    "acquirer": null,
+    "cardProduct": null,
+    "shop": null,
+    "balanceAmount": 6682.219999999999
+  },
+  {
+    "expectedAmount": 194835.9248,
+    "payedAmount": 190353.08000000007,
+    "discountAmount": 0,
+    "type": null,
+    "expectedDate": null,
+    "payedDate": null,
+    "description": "vendas",
+    "status": "FORETHOUGHT",
+    "bankAccount": null,
+    "acquirer": null,
+    "cardProduct": null,
+    "shop": null,
+    "balanceAmount": 190353.08000000007
+  },
+  {
+    "expectedAmount": 194835.9248,
+    "payedAmount": 4482.84479999993,
+    "discountAmount": 0,
+    "type": null,
+    "expectedDate": null,
+    "payedDate": null,
+    "description": "custo de antecipação",
+    "status": "FORETHOUGHT",
+    "bankAccount": null,
+    "acquirer": null,
+    "cardProduct": null,
+    "shop": null,
+    "balanceAmount": 4482.84479999993
+  }
+]

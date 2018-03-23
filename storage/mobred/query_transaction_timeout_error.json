@@ -1,0 +1,11 @@
+{
+    "CodigoEstabelecimento": null,
+    "CodigoTerminal": null,
+    "IndicadorContinuacao": null,
+    "ListaTransacoes": null,
+    "CodigoRetorno": 6,
+    "MensagemRetorno": "Por favor, efetue um novo login (6)",
+    "VersaoMinimaAndroid": null,
+    "VersaoMinimaIOS": null,
+    "VersaoMinimaWin": null
+}

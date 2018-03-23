@@ -1,0 +1,1168 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=0&size=20"
+    },
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions"
+    },
+    {
+      "rel": "next",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=1&size=20"
+    },
+    {
+      "rel": "last",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=1&size=20"
+    }
+  ],
+  "content": [
+    {
+      "id": 1600247,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "001281",
+      "buyAmount": null,
+      "cardNumber": "523284******7270",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.07,
+      "gross": 90,
+      "history": null,
+      "hour": "02:09:06",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 87.93,
+      "nsu": "000499924902",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7270",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600256,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "032125",
+      "buyAmount": null,
+      "cardNumber": "544315******7548",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 1.38,
+      "gross": 60,
+      "history": null,
+      "hour": "00:33:02",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 58.62,
+      "nsu": "000499978288",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7548",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600146,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "032533",
+      "buyAmount": null,
+      "cardNumber": "516220******7238",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "06:54:37",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000002157768",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7238",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600203,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "037160",
+      "buyAmount": null,
+      "cardNumber": "546452******5013",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 3.45,
+      "gross": 150,
+      "history": null,
+      "hour": "01:12:08",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 146.55,
+      "nsu": "000250040814",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "5013",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600137,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "039012",
+      "buyAmount": null,
+      "cardNumber": "530034******7421",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "06:28:24",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000002147690",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7421",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600231,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "045745",
+      "buyAmount": null,
+      "cardNumber": "554927******1579",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "02:33:22",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000499907950",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "1579",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600129,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "049326",
+      "buyAmount": null,
+      "cardNumber": "526778******2048",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "05:20:01",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000002116188",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "2048",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600265,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "051914",
+      "buyAmount": null,
+      "cardNumber": "552236******6549",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.46,
+      "gross": 20,
+      "history": null,
+      "hour": "15:26:54",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 19.54,
+      "nsu": "000502264856",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1026,
+        "code": "WY251284"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "6549",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600471,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "053516",
+      "buyAmount": null,
+      "cardNumber": "539073******6575",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.39,
+      "gross": 104,
+      "history": null,
+      "hour": "15:27:41",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 101.61,
+      "nsu": "000752108268",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730213",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 992,
+        "code": "PV094061"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "6575",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600121,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "065573",
+      "buyAmount": null,
+      "cardNumber": "535858******5895",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 4.6,
+      "gross": 200,
+      "history": null,
+      "hour": "05:07:33",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 195.4,
+      "nsu": "000002112702",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "5895",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600185,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "065708",
+      "buyAmount": null,
+      "cardNumber": "511708******8017",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "03:13:15",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000249724230",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "8017",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600154,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "074486",
+      "buyAmount": null,
+      "cardNumber": "535085******9042",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 4.6,
+      "gross": 200,
+      "history": null,
+      "hour": "10:22:15",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 195.4,
+      "nsu": "000002488616",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1060,
+        "code": "WY046748"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "9042",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600171,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "087926",
+      "buyAmount": null,
+      "cardNumber": "548985******7675",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 3.68,
+      "gross": 160,
+      "history": null,
+      "hour": "20:29:45",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 156.32,
+      "nsu": "000246882704",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1025,
+        "code": "WQ446271"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7675",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600195,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "098497",
+      "buyAmount": null,
+      "cardNumber": "526769******0847",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.69,
+      "gross": 30,
+      "history": null,
+      "hour": "00:38:23",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 29.31,
+      "nsu": "000250025228",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "0847",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600613,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "148858",
+      "buyAmount": null,
+      "cardNumber": "516220******9180",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 3.67,
+      "gross": 156,
+      "history": null,
+      "hour": "20:47:44",
+      "installment": 2,
+      "installments": [],
+      "modality": "BILL_PAYMENT",
+      "net": 152.33,
+      "nsu": "000752807814",
+      "percentFee": 2.35,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "065349976",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1050,
+        "code": "WY487796"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "9180",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600238,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "234478",
+      "buyAmount": null,
+      "cardNumber": "542820******5991",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 1.15,
+      "gross": 50,
+      "history": null,
+      "hour": "02:23:43",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 48.85,
+      "nsu": "000499913788",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "5991",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600622,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "257223",
+      "buyAmount": null,
+      "cardNumber": "516220******7571",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 3.76,
+      "gross": 160,
+      "history": null,
+      "hour": "21:55:51",
+      "installment": 3,
+      "installments": [],
+      "modality": "BILL_PAYMENT",
+      "net": 156.24,
+      "nsu": "000246706080",
+      "percentFee": 2.35,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "065349976",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1025,
+        "code": "WQ446271"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "7571",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600478,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "285167",
+      "buyAmount": null,
+      "cardNumber": "544731******4934",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.16,
+      "gross": 94,
+      "history": null,
+      "hour": "15:28:54",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 91.84,
+      "nsu": "000752111038",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730213",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 992,
+        "code": "PV094061"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "4934",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600213,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "299013",
+      "buyAmount": null,
+      "cardNumber": "536518******3103",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 1.15,
+      "gross": 50,
+      "history": null,
+      "hour": "01:19:13",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 48.85,
+      "nsu": "000250043330",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1011,
+        "code": "WY214264"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "3103",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1600164,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "344853",
+      "buyAmount": null,
+      "cardNumber": "536518******4107",
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-13",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.3,
+      "gross": 100,
+      "history": null,
+      "hour": "17:36:00",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 97.7,
+      "nsu": "000004079814",
+      "percentFee": 2.3,
+      "conciliationStatus": "TO_CONCILIE",
+      "roNumber": "063730210",
+      "pv": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 1048,
+        "code": "WW109658"
+      },
+      "tid": null,
+      "type": "CREDIT",
+      "withdrawAmount": null,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "4107",
+      "ecommerce": false,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 28,
+    "totalPages": 2,
+    "number": 0
+  }
+}

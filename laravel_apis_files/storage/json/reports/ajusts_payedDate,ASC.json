@@ -1,0 +1,1828 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/adjusts?page=0&size=20&sort=payedDate,asc"
+    },
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/adjusts"
+    },
+    {
+      "rel": "next",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/adjusts?page=1&size=20&sort=payedDate,asc"
+    },
+    {
+      "rel": "last",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/adjusts?page=1&size=20&sort=payedDate,asc"
+    }
+  ],
+  "content": [
+    {
+      "id": 1474,
+      "code": "018",
+      "amount": 29.31,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-01",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "036429288",
+      "roDate": "2016-10-11",
+      "roNumber": "036429288",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "691124",
+      "transactionCardNumber": "455181XXXXXX0018",
+      "transactionDate": "2016-10-01",
+      "transactionGross": 30,
+      "transactionNsu": "000499490306",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 143582,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 4271.42,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 4271.42,
+        "expectedDate": "2016-11-01",
+        "fee": 104.72,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 4552,
+        "installmentNumber": 1,
+        "keyPayment": "39479390036429288011020161",
+        "payedDate": "2016-11-01",
+        "percentFee": 2.3,
+        "roDate": "2016-10-01",
+        "roNumber": "036429288",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": null
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1475,
+      "code": "018",
+      "amount": 146.55,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-01",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "036429288",
+      "roDate": "2016-10-11",
+      "roNumber": "036429288",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "017118",
+      "transactionCardNumber": "498401XXXXXX3484",
+      "transactionDate": "2016-10-01",
+      "transactionGross": 150,
+      "transactionNsu": "000005873016",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 143582,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 4271.42,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 4271.42,
+        "expectedDate": "2016-11-01",
+        "fee": 104.72,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 4552,
+        "installmentNumber": 1,
+        "keyPayment": "39479390036429288011020161",
+        "payedDate": "2016-11-01",
+        "percentFee": 2.3,
+        "roDate": "2016-10-01",
+        "roNumber": "036429288",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": null
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1476,
+      "code": "018",
+      "amount": 58.62,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-01",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "053232528",
+      "roDate": "2016-10-11",
+      "roNumber": "053232528",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "661069",
+      "transactionCardNumber": "455181XXXXXX0018",
+      "transactionDate": "2016-10-01",
+      "transactionGross": 60,
+      "transactionNsu": "000499461356",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 146286,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 151.43,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 356.6,
+        "expectedDate": "2016-11-01",
+        "fee": 8.4,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 365,
+        "installmentNumber": 1,
+        "keyPayment": "39479390053232528011020161",
+        "payedDate": "2016-11-01",
+        "percentFee": 2.3,
+        "roDate": "2016-10-01",
+        "roNumber": "053232528",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1477,
+      "code": "018",
+      "amount": 146.55,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-01",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "053232528",
+      "roDate": "2016-10-11",
+      "roNumber": "053232528",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "019279",
+      "transactionCardNumber": "498453XXXXXX0390",
+      "transactionDate": "2016-10-01",
+      "transactionGross": 150,
+      "transactionNsu": "000245439030",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 146286,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 151.43,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 356.6,
+        "expectedDate": "2016-11-01",
+        "fee": 8.4,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 365,
+        "installmentNumber": 1,
+        "keyPayment": "39479390053232528011020161",
+        "payedDate": "2016-11-01",
+        "percentFee": 2.3,
+        "roDate": "2016-10-01",
+        "roNumber": "053232528",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1478,
+      "code": "018",
+      "amount": 117.24,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-03",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "068929048",
+      "roDate": "2016-10-11",
+      "roNumber": "068929048",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "005272",
+      "transactionCardNumber": "498406XXXXXX8915",
+      "transactionDate": "2016-10-03",
+      "transactionGross": 120,
+      "transactionNsu": "000497894490",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 141966,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 1321.88,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 1556.36,
+        "expectedDate": "2016-11-03",
+        "fee": 36.64,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 1593,
+        "installmentNumber": 1,
+        "keyPayment": "39479390068929048031020161",
+        "payedDate": "2016-11-03",
+        "percentFee": 2.3,
+        "roDate": "2016-10-03",
+        "roNumber": "068929048",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1479,
+      "code": "018",
+      "amount": 58.62,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-03",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "068929048",
+      "roDate": "2016-10-11",
+      "roNumber": "068929048",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "953469",
+      "transactionCardNumber": "498423XXXXXX8724",
+      "transactionDate": "2016-10-03",
+      "transactionGross": 60,
+      "transactionNsu": "000747805776",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 141966,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 1321.88,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 1556.36,
+        "expectedDate": "2016-11-03",
+        "fee": 36.64,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 1593,
+        "installmentNumber": 1,
+        "keyPayment": "39479390068929048031020161",
+        "payedDate": "2016-11-03",
+        "percentFee": 2.3,
+        "roDate": "2016-10-03",
+        "roNumber": "068929048",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1673,
+      "code": "028",
+      "amount": 559.55,
+      "currency": "BRL",
+      "description": "AL.POS/PINPAD/TX CON",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "094932838",
+      "roDate": "2016-11-02",
+      "roNumber": "094932838",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 20972,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 2651.75,
+        "bankAgencyNumber": "0952",
+        "bankAccountId": 24,
+        "bankCheckingAccountNumber": "085197",
+        "bankNumber": "237",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 3535.77,
+        "expectedDate": "2016-11-04",
+        "fee": 79.56,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 3615.33,
+        "installmentNumber": 1,
+        "keyPayment": "10343547094932838051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.2,
+        "roDate": "2016-10-05",
+        "roNumber": "094932838",
+        "creditShopCode": "010343547",
+        "sourceShopCode": "010343547",
+        "creditedShopId": 28,
+        "sourceShopId": 28,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 24,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "000952",
+        "accountNumber": "00000085197"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1674,
+      "code": "020",
+      "amount": 293.44,
+      "currency": "BRL",
+      "description": "POS-INATIV/CONEC/PIN",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "094932838",
+      "roDate": "2016-11-02",
+      "roNumber": "094932838",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 20972,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 2651.75,
+        "bankAgencyNumber": "0952",
+        "bankAccountId": 24,
+        "bankCheckingAccountNumber": "085197",
+        "bankNumber": "237",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 3535.77,
+        "expectedDate": "2016-11-04",
+        "fee": 79.56,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 3615.33,
+        "installmentNumber": 1,
+        "keyPayment": "10343547094932838051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.2,
+        "roDate": "2016-10-05",
+        "roNumber": "094932838",
+        "creditShopCode": "010343547",
+        "sourceShopCode": "010343547",
+        "creditedShopId": 28,
+        "sourceShopId": 28,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 24,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "000952",
+        "accountNumber": "00000085197"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1675,
+      "code": "002",
+      "amount": 1.13,
+      "currency": "BRL",
+      "description": "CONSULTA DE CHEQUES",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "094932838",
+      "roDate": "2016-11-02",
+      "roNumber": "094932838",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "ADJUST",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 20972,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 2651.75,
+        "bankAgencyNumber": "0952",
+        "bankAccountId": 24,
+        "bankCheckingAccountNumber": "085197",
+        "bankNumber": "237",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 3535.77,
+        "expectedDate": "2016-11-04",
+        "fee": 79.56,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 3615.33,
+        "installmentNumber": 1,
+        "keyPayment": "10343547094932838051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.2,
+        "roDate": "2016-10-05",
+        "roNumber": "094932838",
+        "creditShopCode": "010343547",
+        "sourceShopCode": "010343547",
+        "creditedShopId": 28,
+        "sourceShopId": 28,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 24,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "000952",
+        "accountNumber": "00000085197"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1676,
+      "code": "012",
+      "amount": 29.9,
+      "currency": "BRL",
+      "description": "MENSALIDADE HIPERCAR",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "094932838",
+      "roDate": "2016-11-02",
+      "roNumber": "094932838",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "ADJUST",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 20972,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 2651.75,
+        "bankAgencyNumber": "0952",
+        "bankAccountId": 24,
+        "bankCheckingAccountNumber": "085197",
+        "bankNumber": "237",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 3535.77,
+        "expectedDate": "2016-11-04",
+        "fee": 79.56,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 3615.33,
+        "installmentNumber": 1,
+        "keyPayment": "10343547094932838051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.2,
+        "roDate": "2016-10-05",
+        "roNumber": "094932838",
+        "creditShopCode": "010343547",
+        "sourceShopCode": "010343547",
+        "creditedShopId": 28,
+        "sourceShopId": 28,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 24,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "000952",
+        "accountNumber": "00000085197"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1168,
+      "code": "028",
+      "amount": 255,
+      "currency": "BRL",
+      "description": "AL.POS/PINPAD/TX CON",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "097331234",
+      "roDate": "2016-11-02",
+      "roNumber": "097331234",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 83107,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 401.12,
+        "bankAgencyNumber": "007977",
+        "bankAccountId": 131,
+        "bankCheckingAccountNumber": "00000012454",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 718.52,
+        "expectedDate": "2016-11-04",
+        "fee": 16.46,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 734.98,
+        "installmentNumber": 1,
+        "keyPayment": "16387899097331234051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.24,
+        "roDate": "2016-10-05",
+        "roNumber": "097331234",
+        "creditShopCode": "016387899",
+        "sourceShopCode": "016387899",
+        "creditedShopId": 323,
+        "sourceShopId": 323,
+        "status": "RECEIVED",
+        "transactionQuantity": 38
+      },
+      "bankAccount": {
+        "id": 131,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "007977",
+        "accountNumber": "00000012454"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1169,
+      "code": "020",
+      "amount": 32.5,
+      "currency": "BRL",
+      "description": "POS-INATIV/CONEC/PIN",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "097331234",
+      "roDate": "2016-11-02",
+      "roNumber": "097331234",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 83107,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 401.12,
+        "bankAgencyNumber": "007977",
+        "bankAccountId": 131,
+        "bankCheckingAccountNumber": "00000012454",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 718.52,
+        "expectedDate": "2016-11-04",
+        "fee": 16.46,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 734.98,
+        "installmentNumber": 1,
+        "keyPayment": "16387899097331234051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.24,
+        "roDate": "2016-10-05",
+        "roNumber": "097331234",
+        "creditShopCode": "016387899",
+        "sourceShopCode": "016387899",
+        "creditedShopId": 323,
+        "sourceShopId": 323,
+        "status": "RECEIVED",
+        "transactionQuantity": 38
+      },
+      "bankAccount": {
+        "id": 131,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "007977",
+        "accountNumber": "00000012454"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1170,
+      "code": "012",
+      "amount": 29.9,
+      "currency": "BRL",
+      "description": "MENSALIDADE HIPERCAR",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "097331234",
+      "roDate": "2016-11-02",
+      "roNumber": "097331234",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "ADJUST",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 83107,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 401.12,
+        "bankAgencyNumber": "007977",
+        "bankAccountId": 131,
+        "bankCheckingAccountNumber": "00000012454",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 718.52,
+        "expectedDate": "2016-11-04",
+        "fee": 16.46,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 734.98,
+        "installmentNumber": 1,
+        "keyPayment": "16387899097331234051020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.24,
+        "roDate": "2016-10-05",
+        "roNumber": "097331234",
+        "creditShopCode": "016387899",
+        "sourceShopCode": "016387899",
+        "creditedShopId": 323,
+        "sourceShopId": 323,
+        "status": "RECEIVED",
+        "transactionQuantity": 38
+      },
+      "bankAccount": {
+        "id": 131,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "007977",
+        "accountNumber": "00000012454"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1177,
+      "code": "028",
+      "amount": 9.68,
+      "currency": "BRL",
+      "description": "AL.POS/PINPAD/TX CON",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "076032354",
+      "roDate": "2016-11-02",
+      "roNumber": "076032354",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 497,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 0,
+        "bankAgencyNumber": "1451",
+        "bankAccountId": 56,
+        "bankCheckingAccountNumber": "501999",
+        "bankNumber": "237",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 9.68,
+        "expectedDate": "2016-11-04",
+        "fee": 0.32,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 10,
+        "installmentNumber": 1,
+        "keyPayment": "9357998076032354041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 3.2,
+        "roDate": "2016-10-04",
+        "roNumber": "076032354",
+        "creditShopCode": "009357998",
+        "sourceShopCode": "009357998",
+        "creditedShopId": 5,
+        "sourceShopId": 5,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 56,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "001451",
+        "accountNumber": "00000501999"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1178,
+      "code": "028",
+      "amount": 48.38,
+      "currency": "BRL",
+      "description": "AL.POS/PINPAD/TX CON",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "076032355",
+      "roDate": "2016-11-02",
+      "roNumber": "076032355",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 498,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 0,
+        "bankAgencyNumber": "1451",
+        "bankAccountId": 56,
+        "bankCheckingAccountNumber": "501999",
+        "bankNumber": "237",
+        "cardProductCode": "5",
+        "cardProductId": 5,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 48.38,
+        "expectedDate": "2016-11-04",
+        "fee": 1.62,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 50,
+        "installmentNumber": 1,
+        "keyPayment": "9357998076032355041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 3.24,
+        "roDate": "2016-10-04",
+        "roNumber": "076032355",
+        "creditShopCode": "009357998",
+        "sourceShopCode": "009357998",
+        "creditedShopId": 5,
+        "sourceShopId": 5,
+        "status": "RECEIVED",
+        "transactionQuantity": 4
+      },
+      "bankAccount": {
+        "id": 56,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "001451",
+        "accountNumber": "00000501999"
+      },
+      "cardProduct": {
+        "id": 5,
+        "name": "Hipercard",
+        "brand": {
+          "id": 5,
+          "name": "HIPERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1180,
+      "code": "028",
+      "amount": 9.68,
+      "currency": "BRL",
+      "description": "AL.POS/PINPAD/TX CON",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "094629488",
+      "roDate": "2016-11-02",
+      "roNumber": "094629488",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 829,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 0,
+        "bankAgencyNumber": "1451",
+        "bankAccountId": 56,
+        "bankCheckingAccountNumber": "501999",
+        "bankNumber": "237",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 9.68,
+        "expectedDate": "2016-11-04",
+        "fee": 0.32,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 10,
+        "installmentNumber": 1,
+        "keyPayment": "9357998094629488041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 3.2,
+        "roDate": "2016-10-04",
+        "roNumber": "094629488",
+        "creditShopCode": "009357998",
+        "sourceShopCode": "009357998",
+        "creditedShopId": 5,
+        "sourceShopId": 5,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 56,
+        "bankName": "Bradesco",
+        "bankId": 5,
+        "agencyNumber": "001451",
+        "accountNumber": "00000501999"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 5,
+        "code": "009357998",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1480,
+      "code": "018",
+      "amount": 97.7,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "2016-10-12",
+      "adjustRoNumber": "086229787",
+      "roDate": "2016-10-12",
+      "roNumber": "086229787",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "994855",
+      "transactionCardNumber": "498401XXXXXX8483",
+      "transactionDate": "2016-10-04",
+      "transactionGross": 100,
+      "transactionNsu": "000251786938",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 145204,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 4682.49,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 5671.48,
+        "expectedDate": "2016-11-04",
+        "fee": 133.52,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 5805,
+        "installmentNumber": 1,
+        "keyPayment": "39479390086229787041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.3,
+        "roDate": "2016-10-04",
+        "roNumber": "086229787",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1481,
+      "code": "020",
+      "amount": 891.29,
+      "currency": "BRL",
+      "description": "POS-INATIV/CONEC/PIN",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "0002-11-30",
+      "adjustRoNumber": "086229787",
+      "roDate": "2016-11-02",
+      "roNumber": "086229787",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": null,
+      "transactionCardNumber": null,
+      "transactionDate": null,
+      "transactionGross": null,
+      "transactionNsu": null,
+      "type": "POS_CONECTIVITY",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 145204,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 4682.49,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 5671.48,
+        "expectedDate": "2016-11-04",
+        "fee": 133.52,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 5805,
+        "installmentNumber": 1,
+        "keyPayment": "39479390086229787041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.3,
+        "roDate": "2016-10-04",
+        "roNumber": "086229787",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1482,
+      "code": "018",
+      "amount": 449.42,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "2016-10-05",
+      "adjustRoNumber": "086229790",
+      "roDate": "2016-10-05",
+      "roNumber": "086229790",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "081329",
+      "transactionCardNumber": "459313XXXXXX1458",
+      "transactionDate": "2016-10-04",
+      "transactionGross": 460,
+      "transactionNsu": "000504222206",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 145216,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 1649.18,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "3",
+        "cardProductId": 3,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 2098.6,
+        "expectedDate": "2016-11-04",
+        "fee": 49.4,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 2148,
+        "installmentNumber": 1,
+        "keyPayment": "39479390086229790041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.3,
+        "roDate": "2016-10-04",
+        "roNumber": "086229790",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 51
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    },
+    {
+      "id": 1483,
+      "code": "018",
+      "amount": 244.25,
+      "currency": "BRL",
+      "description": "CANCEL.DE VENDAS",
+      "documentNumber": null,
+      "nature": "DEBIT",
+      "payedDate": "2016-11-04",
+      "referenceDate": "2016-10-11",
+      "adjustRoNumber": "005131384",
+      "roDate": "2016-10-11",
+      "roNumber": "005131384",
+      "roNumberSource": null,
+      "roDateSource": null,
+      "status": "RECEIVED",
+      "transactionAuthorization": "098886",
+      "transactionCardNumber": "554906XXXXXX4188",
+      "transactionDate": "2016-10-04",
+      "transactionGross": 250,
+      "transactionNsu": "000004416938",
+      "type": "CANCELLATION",
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustedTransaction": null,
+      "movementSource": null,
+      "movementDiscounted": {
+        "id": 141638,
+        "acquirer": {
+          "id": 1,
+          "name": "REDE"
+        },
+        "payedAmount": 213.96,
+        "bankAgencyNumber": "001338",
+        "bankAccountId": 188,
+        "bankCheckingAccountNumber": "00000007188",
+        "bankNumber": "341",
+        "cardProductCode": "1",
+        "cardProductId": 1,
+        "cardProductType": "CRÉDITO",
+        "currency": "BRL",
+        "documentNumber": null,
+        "expectedAmount": 458.21,
+        "expectedDate": "2016-11-04",
+        "fee": 10.79,
+        "forethoughtFee": null,
+        "forethoughtPercentFee": null,
+        "gross": 469,
+        "installmentNumber": 1,
+        "keyPayment": "39479390005131384041020161",
+        "payedDate": "2016-11-04",
+        "percentFee": 2.3,
+        "roDate": "2016-10-04",
+        "roNumber": "005131384",
+        "creditShopCode": "039479390",
+        "sourceShopCode": "039479390",
+        "creditedShopId": 371,
+        "sourceShopId": 371,
+        "status": "RECEIVED",
+        "transactionQuantity": 0
+      },
+      "bankAccount": {
+        "id": 188,
+        "bankName": "Itaú",
+        "bankId": 1,
+        "agencyNumber": "001338",
+        "accountNumber": "00000007188"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "shopSource": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "shopCredited": {
+        "id": 371,
+        "code": "039479390",
+        "acquirerId": null
+      },
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 37,
+    "totalPages": 2,
+    "number": 0
+  }
+}

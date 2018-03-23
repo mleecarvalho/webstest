@@ -1,0 +1,15 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/financials/details"
+    }
+  ],
+  "content": [],
+  "page": {
+    "size": 20,
+    "totalElements": 0,
+    "totalPages": 0,
+    "number": 0
+  }
+}

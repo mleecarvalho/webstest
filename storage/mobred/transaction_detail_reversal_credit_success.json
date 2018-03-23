@@ -1,0 +1,20 @@
+{  
+   "Aute":"123456",
+   "CodigoBandeira":2.0,
+   "CodigoEstabelecimento":33677387.0,
+   "CodigoStatusTransacao":1.0,
+   "CodigoTerminal":"MOBILE16",
+   "CodigoTransacao":"0002",
+   "DataHoraTerminal":"/Date(1443016206000)/",
+   "MascaraCartao":15.0,
+   "NSUHost":23265482.0,
+   "NSUTerminal":526216.0,
+   "NomeTitularCartao":"-",
+   "QuantidadeParcelaTransacao":12.0,
+   "ValorTotal":1000.0,
+   "CodigoRetorno":0,
+   "MensagemRetorno":"",
+   "VersaoMinimaAndroid":null,
+   "VersaoMinimaIOS":null,
+   "VersaoMinimaWin":null
+}

@@ -1,0 +1,108 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactionsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 28,
+      "amount": 3204,
+      "net": 3129.9999999999995,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "TO_CONCILIE",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 1,
+        "name": "Mastercard",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 26,
+      "amount": 2676,
+      "net": 2614.16,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "TO_CONCILIE",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 3,
+        "name": "Visa Crédito",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 16,
+      "amount": 1456,
+      "net": 1431.9399999999998,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "TO_CONCILIE",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "pv": null,
+      "links": []
+    },
+    {
+      "quantity": 15,
+      "amount": 1776,
+      "net": 1746.67,
+      "cancelledAmount": null,
+      "date": null,
+      "conciliationStatus": "TO_CONCILIE",
+      "adjustType": null,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "cardProduct": {
+        "id": 7,
+        "name": "Visa Electron",
+        "brand": {
+          "id": 3,
+          "name": "VISA"
+        }
+      },
+      "pv": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 4,
+    "totalPages": 1,
+    "number": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "links": [
+        {
+            "rel": "self",
+            "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/movementsummaries"
+        }
+    ],
+    "content": [
+        {
+            "date": null,
+            "quantity": 1494,
+            "transactionQuantity": 1342,
+            "expectedAmount": 2273895.2747999984,
+            "payedAmount": 2600863.7199999974,
+            "acquirer": null,
+            "cardProduct": null,
+            "bankAccount": null,
+            "shop": null,
+            "links": []
+        }
+    ],
+    "page": {
+        "size": 20,
+        "totalElements": 1,
+        "totalPages": 1,
+        "number": 0
+    }
+}

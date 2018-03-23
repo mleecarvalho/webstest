@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/adjustsummaries"
+    }
+  ],
+  "content": [
+    {
+      "quantity": 3,
+      "amount": 420.14,
+      "date": null,
+      "type": "OTHER",
+      "description": "CANCEL.DE VENDAS",
+      "acquirer": null,
+      "cardProduct": null,
+      "bankAccount": null,
+      "shop": null,
+      "links": []
+    },
+    {
+      "quantity": 2,
+      "amount": 49,
+      "date": null,
+      "type": "OTHER",
+      "description": "CONTESTACAO VDA",
+      "acquirer": null,
+      "cardProduct": null,
+      "bankAccount": null,
+      "shop": null,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 2,
+    "totalPages": 1,
+    "number": 0
+  }
+}

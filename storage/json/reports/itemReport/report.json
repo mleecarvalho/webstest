@@ -1,0 +1,1168 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=0&size=20&sort=date,asc"
+    },
+    {
+      "rel": "self",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions"
+    },
+    {
+      "rel": "next",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=1&size=20&sort=date,asc"
+    },
+    {
+      "rel": "last",
+      "href": "http://devconciliationapi.us-east-1.elasticbeanstalk.com/transactions?page=588&size=20&sort=date,asc"
+    }
+  ],
+  "content": [
+    {
+      "id": 1391104,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 50.01,
+      "cardNumber": "514945******1810",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.6,
+      "gross": 50.01,
+      "history": null,
+      "hour": "20:29:24",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 49.41,
+      "nsu": "000245907862",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306243072",
+      "pv": {
+        "id": 279,
+        "code": "036720119",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 381,
+        "code": "PV487814"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "1810",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1392384,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 30,
+      "cardNumber": "589916******5041",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.36,
+      "gross": 30,
+      "history": null,
+      "hour": "23:09:05",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 29.64,
+      "nsu": "000245369132",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306217632",
+      "pv": {
+        "id": 270,
+        "code": "032623623",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 375,
+        "code": "PV487813"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "5041",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1396736,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 5.37,
+      "cardNumber": "525663******3960",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.08,
+      "gross": 5.37,
+      "history": null,
+      "hour": "08:48:10",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 5.29,
+      "nsu": "000002972968",
+      "percentFee": 1.49,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306085439",
+      "pv": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 604,
+        "code": "DK031226"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "3960",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1438464,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 67.5,
+      "cardNumber": "589916******8841",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 1.08,
+      "gross": 67.5,
+      "history": null,
+      "hour": "15:46:48",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 66.42,
+      "nsu": "000247410974",
+      "percentFee": 1.6,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306036449",
+      "pv": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 944,
+        "code": "WU805265"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "8841",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1391105,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 13.5,
+      "cardNumber": "508116******9382",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.16,
+      "gross": 13.5,
+      "history": null,
+      "hour": "15:19:28",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 13.34,
+      "nsu": "000247536296",
+      "percentFee": 1.19,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306019421",
+      "pv": {
+        "id": 277,
+        "code": "006525296",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 388,
+        "code": "PV487805"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "9382",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1392641,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 80,
+      "cardNumber": "523284******5308",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.96,
+      "gross": 80,
+      "history": null,
+      "hour": "07:03:50",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 79.04,
+      "nsu": "000249625550",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306217632",
+      "pv": {
+        "id": 270,
+        "code": "032623623",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 375,
+        "code": "PV487813"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "5308",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1412097,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 13.83,
+      "cardNumber": "603689*********5688",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.22,
+      "gross": 13.83,
+      "history": null,
+      "hour": "17:55:58",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 13.61,
+      "nsu": "000252625374",
+      "percentFee": 1.59,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306019843",
+      "pv": {
+        "id": 7,
+        "code": "006612032",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 938,
+        "code": "WU805206"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "5688",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1433601,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 35,
+      "cardNumber": "502121******1320",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.56,
+      "gross": 35,
+      "history": null,
+      "hour": "18:35:15",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 34.44,
+      "nsu": "000252824494",
+      "percentFee": 1.6,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306036449",
+      "pv": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 72,
+        "code": "WU802202"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "1320",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1391106,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 16.7,
+      "cardNumber": "549167******9677",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.2,
+      "gross": 16.7,
+      "history": null,
+      "hour": "20:10:05",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 16.5,
+      "nsu": "000245986988",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306243072",
+      "pv": {
+        "id": 279,
+        "code": "036720119",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 381,
+        "code": "PV487814"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "9677",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1392386,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 10.6,
+      "cardNumber": "525662******5363",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.13,
+      "gross": 10.6,
+      "history": null,
+      "hour": "22:59:31",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 10.47,
+      "nsu": "000245386182",
+      "percentFee": 1.23,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306217632",
+      "pv": {
+        "id": 270,
+        "code": "032623623",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 375,
+        "code": "PV487813"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "5363",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1392642,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 7.75,
+      "cardNumber": "502121******8486",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.09,
+      "gross": 7.75,
+      "history": null,
+      "hour": "06:57:55",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 7.66,
+      "nsu": "000249634522",
+      "percentFee": 1.16,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306217632",
+      "pv": {
+        "id": 270,
+        "code": "032623623",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 375,
+        "code": "PV487813"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "8486",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1396738,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 11.79,
+      "cardNumber": "603689*********8110",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.17,
+      "gross": 11.79,
+      "history": null,
+      "hour": "08:49:16",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 11.62,
+      "nsu": "000002977988",
+      "percentFee": 1.44,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306085439",
+      "pv": {
+        "id": 323,
+        "code": "016387899",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 604,
+        "code": "DK031226"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "8110",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1402882,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 15.01,
+      "cardNumber": "515590******8658",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.18,
+      "gross": 15.01,
+      "history": null,
+      "hour": "06:32:33",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 14.83,
+      "nsu": "000249668966",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306243072",
+      "pv": {
+        "id": 279,
+        "code": "036720119",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 381,
+        "code": "PV487814"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "8658",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1417474,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 50,
+      "cardNumber": "589916******6393",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.58,
+      "gross": 50,
+      "history": null,
+      "hour": "10:29:49",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 49.42,
+      "nsu": "000249064668",
+      "percentFee": 1.16,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306171644",
+      "pv": {
+        "id": 8,
+        "code": "025928309",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 26,
+        "code": "WW120539"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "6393",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1430018,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 50,
+      "cardNumber": "589916******2863",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.58,
+      "gross": 50,
+      "history": null,
+      "hour": "14:01:12",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 49.42,
+      "nsu": "000998268774",
+      "percentFee": 1.16,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306171645",
+      "pv": {
+        "id": 8,
+        "code": "025928309",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 29,
+        "code": "PV740801"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "2863",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1438466,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 18.01,
+      "cardNumber": "524820******5322",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.29,
+      "gross": 18.01,
+      "history": null,
+      "hour": "14:44:45",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 17.72,
+      "nsu": "000502634882",
+      "percentFee": 1.61,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306036449",
+      "pv": {
+        "id": 28,
+        "code": "010343547",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 135,
+        "code": "WU002622"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "5322",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1391107,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 232.7,
+      "cardNumber": "514945******5697",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 2.79,
+      "gross": 232.7,
+      "history": null,
+      "hour": "14:15:38",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 229.91,
+      "nsu": "000247842196",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306019421",
+      "pv": {
+        "id": 277,
+        "code": "006525296",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 388,
+        "code": "PV487805"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "5697",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1412099,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 17.57,
+      "cardNumber": "549167******3647",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.28,
+      "gross": 17.57,
+      "history": null,
+      "hour": "18:06:31",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 17.29,
+      "nsu": "000252682112",
+      "percentFee": 1.59,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306019843",
+      "pv": {
+        "id": 7,
+        "code": "006612032",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 938,
+        "code": "WU805206"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "POS",
+      "cardNumberEnd": "3647",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1391108,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 20.02,
+      "cardNumber": "589916******9288",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.24,
+      "gross": 20.02,
+      "history": null,
+      "hour": "20:05:38",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 19.78,
+      "nsu": "000246006606",
+      "percentFee": 1.2,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306243072",
+      "pv": {
+        "id": 279,
+        "code": "036720119",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 381,
+        "code": "PV487814"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "9288",
+      "ecommerce": false,
+      "links": []
+    },
+    {
+      "id": 1392388,
+      "acquirer": {
+        "id": 1,
+        "name": "REDE"
+      },
+      "adjustAmount": null,
+      "adjustCode": null,
+      "adjustDate": null,
+      "adjustDescription": null,
+      "adjustType": null,
+      "authorization": "-",
+      "buyAmount": 26.8,
+      "cardNumber": "514945******3502",
+      "cardProduct": {
+        "id": 6,
+        "name": "Maestro",
+        "brand": {
+          "id": 1,
+          "name": "MASTERCARD"
+        }
+      },
+      "currency": "BRL",
+      "date": "2016-11-01",
+      "entryDateCancellation": null,
+      "entryDateTransaction": null,
+      "erpKey": null,
+      "fee": 0.32,
+      "gross": 26.8,
+      "history": null,
+      "hour": "22:49:19",
+      "installment": 1,
+      "installments": [],
+      "modality": "PRE_DATED",
+      "net": 26.48,
+      "nsu": "000245405442",
+      "percentFee": 1.19,
+      "conciliationStatus": "CONCILIED",
+      "roNumber": "306217632",
+      "pv": {
+        "id": 270,
+        "code": "032623623",
+        "acquirerId": null
+      },
+      "status": "PROCESSED",
+      "terminal": {
+        "id": 375,
+        "code": "PV487813"
+      },
+      "tid": null,
+      "type": "DEBIT",
+      "withdrawAmount": 0,
+      "collectMethodId": "PDV",
+      "cardNumberEnd": "3502",
+      "ecommerce": false,
+      "links": []
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 11764,
+    "totalPages": 589,
+    "number": 0
+  }
+}

@@ -1,0 +1,20 @@
+{  
+   "Aute":"123456",
+   "CodigoBandeira":22.0,
+   "CodigoEstabelecimento":33677387.0,
+   "CodigoStatusTransacao":1.0,
+   "CodigoTerminal":"MOBILE16",
+   "CodigoTransacao":"0003",
+   "DataHoraTerminal":"/Date(1492690716000)/",
+   "MascaraCartao":1061.0,
+   "NSUHost":249997812.0,
+   "NSUTerminal":954866.0,
+   "NomeTitularCartao":"NUTRICASH CHIP 03         ",
+   "QuantidadeParcelaTransacao":1.0,
+   "ValorTotal":5500.0,
+   "CodigoRetorno":0,
+   "MensagemRetorno":"",
+   "VersaoMinimaAndroid":null,
+   "VersaoMinimaIOS":null,
+   "VersaoMinimaWin":null
+}
