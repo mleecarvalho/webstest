@@ -15,21 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-/** LOGIN **/
-
-Route::post('login', function(){
-	return response()->file(storage_path("json/login.json"));
-});
-
-/** conciliador rotas */
-Route::get('transactionconciliations', 'TransactionConciliationsController@response');
-Route::get('transactionsummaries', 'TransactionSummariesController@response');
-Route::get('movementsummaries', 'MovementSummariesController@response');
-Route::get('financials', 'FinancialsController@response');
-Route::get('adjustsummaries', 'AdjustSummariesController@response');
-Route::get('adjusts', 'AdjustsController@response');
-
 /** mobile rede rotas */
+
 Route::post('Autenticacao/GerenciarLogOn','GerenciarLogOn@response');
 Route::post('Autenticacao/ObterVersaoMinima','ObterVersaoMinima@response');
 Route::post('Autenticacao/Inicializacao','Inicializacao@response');
@@ -43,5 +30,19 @@ Route::get('Autenticacao/BaixarInicializacao', function()
 });
 
 Route::post('Transacao/EnviarTransacao','EnviarTransacao@response');
-
 Route::post('Comprovante/EnviarComprovante','EnviarComprovante@response');
+
+
+
+/** conciliador rotas */
+
+Route::post('login', function(){
+	return response()->file(storage_path("json/login.json"));
+});
+
+Route::get('transactionconciliations', 'TransactionConciliationsController@response');
+Route::get('transactionsummaries', 'TransactionSummariesController@response');
+Route::get('movementsummaries', 'MovementSummariesController@response');
+Route::get('financials', 'FinancialsController@response');
+Route::get('adjustsummaries', 'AdjustSummariesController@response');
+Route::get('adjusts', 'AdjustsController@response');
