@@ -17,20 +17,33 @@ Route::get('/', function () {
 
 /** mobile rede rotas */
 
+// android
 Route::post('Autenticacao/GerenciarLogOn','GerenciarLogOn@response');
 Route::post('Autenticacao/ObterVersaoMinima','ObterVersaoMinima@response');
 Route::post('Autenticacao/Inicializacao','Inicializacao@response');
 Route::post('Autenticacao/AssociarTerminal','AssociarTerminal@response');
 Route::post('Autenticacao/FinalizarSessao','FinalizarSessao@response');
-
+Route::post('Transacao/EnviarTransacao','EnviarTransacao@response');
+Route::post('Comprovante/EnviarComprovante','EnviarComprovante@response');
 Route::get('Autenticacao/BaixarInicializacao', function()
 {
     $file = storage_path(). '/mobred/LOJISTA_14.TBL';
     return Response::download($file, 'LOJISTA_14.TBL', ['content-type' => 'text/cvs']);
 });
 
-Route::post('Transacao/EnviarTransacao','EnviarTransacao@response');
-Route::post('Comprovante/EnviarComprovante','EnviarComprovante@response');
+// ios
+Route::get('get/Autenticacao/GerenciarLogOn','GerenciarLogOn@response');
+Route::get('get/Autenticacao/ObterVersaoMinima','ObterVersaoMinima@response');
+Route::get('get/Autenticacao/Inicializacao','Inicializacao@response');
+Route::get('get/Autenticacao/AssociarTerminal','AssociarTerminal@response');
+Route::post('get/Autenticacao/FinalizarSessao','FinalizarSessao@response');
+Route::get('get/Transacao/EnviarTransacao','EnviarTransacao@response');
+Route::get('get/Comprovante/EnviarComprovante','EnviarComprovante@response');
+Route::get('get/Autenticacao/BaixarInicializacao', function()
+{
+    $file = storage_path(). '/mobred/LOJISTA_14.TBL';
+    return Response::download($file, 'LOJISTA_14.TBL', ['content-type' => 'text/cvs']);
+});
 
 
 
