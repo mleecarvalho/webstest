@@ -18,13 +18,25 @@ Route::get('/', function () {
 /** mobile rede rotas */
 
 // android
-Route::post('Autenticacao/GerenciarLogOn','GerenciarLogOn@response');
-Route::post('Autenticacao/ObterVersaoMinima','ObterVersaoMinima@response');
-Route::post('Autenticacao/Inicializacao','Inicializacao@response');
-Route::post('Autenticacao/AssociarTerminal','AssociarTerminal@response');
-Route::post('Autenticacao/FinalizarSessao','FinalizarSessao@response');
-Route::post('Transacao/EnviarTransacao','EnviarTransacao@response');
-Route::post('Comprovante/EnviarComprovante','EnviarComprovante@response');
+
+Route::group(['prefix' => 'Autenticacao', 'as' => 'Autenticacao'], function () {
+  Route::post('/GerenciarLogOn','GerenciarLogOn@response');
+  Route::post('/ObterVersaoMinima','ObterVersaoMinima@response');
+  Route::post('/Inicializacao','Inicializacao@response');
+  Route::post('/AssociarTerminal','AssociarTerminal@response');
+  Route::post('/FinalizarSessao','FinalizarSessao@response');
+});
+Route::group(['prefix' => 'Transacao', 'as' => 'Transacao'], function () {
+  Route::post('/EnviarTransacao','EnviarTransacao@response');
+});
+Route::group(['prefix' => 'Comprovante', 'as' => 'Comprovante'], function () {
+  Route::post('/EnviarComprovante','EnviarComprovante@response');
+  Route::post('/EnviarComprovante','EnviarComprovante@response');
+});
+Route::group(['prefix' => 'ConsultarTransacao', 'as' => 'Comprovante'], function () {
+  Route::post('/ConsultarTransacao','ConsultarTransacao@response');
+  Route::post('/DetalharTransacao','DetalharTransacao@response');
+});
 Route::get('Autenticacao/BaixarInicializacao', function()
 {
     $file = storage_path(). '/mobred/LOJISTA_14.TBL';
@@ -32,13 +44,24 @@ Route::get('Autenticacao/BaixarInicializacao', function()
 });
 
 // ios
-Route::get('get/Autenticacao/GerenciarLogOn','GerenciarLogOn@response');
-Route::get('get/Autenticacao/ObterVersaoMinima','ObterVersaoMinima@response');
-Route::get('get/Autenticacao/Inicializacao','Inicializacao@response');
-Route::get('get/Autenticacao/AssociarTerminal','AssociarTerminal@response');
-Route::post('get/Autenticacao/FinalizarSessao','FinalizarSessao@response');
-Route::get('get/Transacao/EnviarTransacao','EnviarTransacao@response');
-Route::get('get/Comprovante/EnviarComprovante','EnviarComprovante@response');
+Route::group(['prefix' => 'get/Autenticacao', 'as' => 'get/Autenticacao'], function () {
+  Route::get('/GerenciarLogOn','GerenciarLogOn@response');
+  Route::get('/ObterVersaoMinima','ObterVersaoMinima@response');
+  Route::get('/Inicializacao','Inicializacao@response');
+  Route::get('/AssociarTerminal','AssociarTerminal@response');
+  Route::get('/FinalizarSessao','FinalizarSessao@response');
+});
+Route::group(['prefix' => 'get/Transacao', 'as' => 'get/Transacao'], function () {
+  Route::post('/EnviarTransacao','EnviarTransacao@response');
+});
+Route::group(['prefix' => 'get/Comprovante', 'as' => 'get/Comprovante'], function () {
+  Route::get('/EnviarComprovante','EnviarComprovante@response');
+  Route::get('/EnviarComprovante','EnviarComprovante@response');
+});
+Route::group(['prefix' => 'get/ConsultarTransacao', 'as' => 'get/ConsultarTransacao'], function () {
+  Route::get('/ConsultarTransacao','ConsultarTransacao@response');
+  Route::get('/DetalharTransacao','DetalharTransacao@response');
+});
 Route::get('get/Autenticacao/BaixarInicializacao', function()
 {
     $file = storage_path(). '/mobred/LOJISTA_14.TBL';
